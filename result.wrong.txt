@@ -1,0 +1,303 @@
+{14: ['Adam'], 12: ['Amel', 'Armand', 'Luca'], 10: ['Cloé', 'Flore', 'Ismaël', 'Melvin', 'Fahim', 'Hadj', 'Kadija', 'Ibrahima', 'Asma', 'Hacène'], 8: ['Haby', 'Assane', 'Azzedine', 'Ali', 'Angélina', 'Cassandre', 'Fatoumata', 'Ibrahim', 'Lolita', 'Maximilien', 'Jamal', 'Kadir', 'Barea', 'Baïa', 'Kacem', 'Kaan', 'Faël', 'Arda'], 6: ['Keshia', 'Alban', 'Anaëlle', 'Capucine', 'Émilien', 'Héléna', 'Laureen', 'Maria', 'Erol', 'Kaela', 'Hafid', 'Gamal', 'Abdeljalil', 'Fadi', 'Djibril', 'Hamoud', 'Hassina', 'Emir'], 4: ['Ahmed', 'Amina', 'Brahim', 'Dounia', 'Giovanni', 'Julian', 'Mailys', 'Cémil', 'Dima', 'Daya'], 2: ['Ichem', 'Fadia', 'Amelle'], 0: ['Chirine']}
+        Adam: ['Keshia', 'Azzedine', 'Fahim', 'Flore', 'Armand', 'Amel', 'Cloé']
+        Amel: ['Alban', 'Ali', 'Hadj', 'Ismaël', 'Cloé', 'Adam', 'Flore']
+        Armand: ['Anaëlle', 'Angélina', 'Kadija', 'Luca', 'Adam', 'Melvin', 'Ismaël']
+        Cloé: ['Capucine', 'Cassandre', 'Ibrahima', 'Melvin', 'Amel', 'Fahim', 'Adam']
+        Flore: ['Émilien', 'Fatoumata', 'Asma', 'Adam', 'Hacène', 'Hadj', 'Amel']
+        Ismaël: ['Héléna', 'Ibrahim', 'Hacène', 'Amel', 'Asma', 'Kadija', 'Armand']
+        Luca: ['Laureen', 'Lolita', 'Haby', 'Armand', 'Assane', 'Ibrahima', 'Azzedine']
+        Melvin: ['Maria', 'Maximilien', 'Assane', 'Cloé', 'Haby', 'Armand', 'Ali']
+        Fahim: ['Erol', 'Jamal', 'Adam', 'Fatoumata', 'Azzedine', 'Cloé', 'Haby']
+        Hadj: ['Kaela', 'Kadir', 'Amel', 'Ibrahim', 'Ali', 'Flore', 'Assane']
+        Kadija: ['Hafid', 'Barea', 'Armand', 'Lolita', 'Angélina', 'Ismaël', 'Cassandre']
+        Ibrahima: ['Gamal', 'Baïa', 'Cloé', 'Maximilien', 'Cassandre', 'Luca', 'Angélina']
+        Asma: ['Abdeljalil', 'Kacem', 'Flore', 'Jamal', 'Ismaël', 'Lolita', 'Fatoumata']
+        Hacène: ['Fadi', 'Kaan', 'Ismaël', 'Kadir', 'Flore', 'Maximilien', 'Ibrahim']
+        Haby: ['Djibril', 'Faël', 'Luca', 'Barea', 'Melvin', 'Jamal', 'Fahim']
+        Assane: ['Hamoud', 'Arda', 'Melvin', 'Baïa', 'Luca', 'Kadir', 'Hadj']
+        Azzedine: ['Hassina', 'Adam', 'Keshia', 'Kacem', 'Fahim', 'Barea', 'Luca']
+        Ali: ['Ahmed', 'Amel', 'Alban', 'Kaan', 'Hadj', 'Baïa', 'Melvin']
+        Angélina: ['Amina', 'Armand', 'Anaëlle', 'Faël', 'Kadija', 'Kacem', 'Ibrahima']
+        Cassandre: ['Brahim', 'Cloé', 'Capucine', 'Arda', 'Ibrahima', 'Kaan', 'Kadija']
+        Fatoumata: ['Dounia', 'Flore', 'Émilien', 'Fahim', 'Keshia', 'Faël', 'Asma']
+        Ibrahim: ['Giovanni', 'Ismaël', 'Héléna', 'Hadj', 'Alban', 'Arda', 'Hacène']
+        Lolita: ['Julian', 'Luca', 'Laureen', 'Kadija', 'Anaëlle', 'Asma', 'Keshia']
+        Maximilien: ['Mailys', 'Melvin', 'Maria', 'Ibrahima', 'Capucine', 'Hacène', 'Alban']
+        Jamal: ['Emir', 'Fahim', 'Erol', 'Asma', 'Émilien', 'Haby', 'Anaëlle']
+        Kadir: ['Cémil', 'Hadj', 'Kaela', 'Hacène', 'Héléna', 'Assane', 'Capucine']
+        Barea: ['Dima', 'Kadija', 'Hafid', 'Haby', 'Laureen', 'Azzedine', 'Émilien']
+        Baïa: ['Ichem', 'Ibrahima', 'Gamal', 'Assane', 'Maria', 'Ali', 'Héléna']
+        Kacem: ['Fadia', 'Asma', 'Abdeljalil', 'Azzedine', 'Erol', 'Angélina', 'Laureen']
+        Kaan: ['Amelle', 'Hacène', 'Fadi', 'Ali', 'Kaela', 'Cassandre', 'Maria']
+        Faël: ['Daya', 'Haby', 'Djibril', 'Angélina', 'Hafid', 'Fatoumata', 'Erol']
+        Arda: ['Chirine', 'Assane', 'Hamoud', 'Cassandre', 'Gamal', 'Ibrahim', 'Kaela']
+        Keshia: ['Adam', 'Hassina', 'Azzedine', 'Abdeljalil', 'Fatoumata', 'Hafid', 'Lolita']
+        Alban: ['Amel', 'Ahmed', 'Ali', 'Fadi', 'Ibrahim', 'Gamal', 'Maximilien']
+        Anaëlle: ['Armand', 'Amina', 'Angélina', 'Djibril', 'Lolita', 'Abdeljalil', 'Jamal']
+        Capucine: ['Cloé', 'Brahim', 'Cassandre', 'Hamoud', 'Maximilien', 'Fadi', 'Kadir']
+        Émilien: ['Flore', 'Dounia', 'Fatoumata', 'Hassina', 'Jamal', 'Djibril', 'Barea']
+        Héléna: ['Ismaël', 'Giovanni', 'Ibrahim', 'Ahmed', 'Kadir', 'Hamoud', 'Baïa']
+        Laureen: ['Luca', 'Julian', 'Lolita', 'Amina', 'Barea', 'Hassina', 'Kacem']
+        Maria: ['Melvin', 'Mailys', 'Maximilien', 'Brahim', 'Baïa', 'Ahmed', 'Kaan']
+        Erol: ['Fahim', 'Emir', 'Jamal', 'Dounia', 'Kacem', 'Amina', 'Faël']
+        Kaela: ['Hadj', 'Cémil', 'Kadir', 'Giovanni', 'Kaan', 'Brahim', 'Arda']
+        Hafid: ['Kadija', 'Dima', 'Barea', 'Julian', 'Faël', 'Keshia', 'Ahmed']
+        Gamal: ['Ibrahima', 'Ichem', 'Baïa', 'Mailys', 'Arda', 'Alban', 'Amina']
+        Abdeljalil: ['Asma', 'Fadia', 'Kacem', 'Keshia', 'Dounia', 'Anaëlle', 'Brahim']
+        Fadi: ['Hacène', 'Amelle', 'Kaan', 'Alban', 'Giovanni', 'Capucine', 'Dounia']
+        Djibril: ['Haby', 'Daya', 'Faël', 'Anaëlle', 'Julian', 'Émilien', 'Giovanni']
+        Hamoud: ['Assane', 'Chirine', 'Arda', 'Capucine', 'Mailys', 'Héléna', 'Julian']
+        Hassina: ['Azzedine', 'Keshia', 'Emir', 'Émilien', 'Cémil', 'Laureen', 'Mailys']
+        Ahmed: ['Ali', 'Alban', 'Cémil', 'Héléna', 'Emir', 'Maria', 'Hafid']
+        Amina: ['Angélina', 'Anaëlle', 'Dima', 'Laureen', 'Ichem', 'Erol', 'Gamal']
+        Brahim: ['Cassandre', 'Capucine', 'Ichem', 'Maria', 'Dima', 'Kaela', 'Abdeljalil']
+        Dounia: ['Fatoumata', 'Émilien', 'Fadia', 'Erol', 'Abdeljalil', 'Cémil', 'Fadi']
+        Giovanni: ['Ibrahim', 'Héléna', 'Amelle', 'Kaela', 'Fadi', 'Dima', 'Djibril']
+        Julian: ['Lolita', 'Laureen', 'Daya', 'Hafid', 'Djibril', 'Ichem', 'Hamoud']
+        Mailys: ['Maximilien', 'Maria', 'Chirine', 'Gamal', 'Hamoud', 'Fadia', 'Hassina']
+        Emir: ['Jamal', 'Erol', 'Hassina', 'Fadia', 'Ahmed', 'Amelle', 'Ichem']
+        Cémil: ['Kadir', 'Kaela', 'Ahmed', 'Amelle', 'Hassina', 'Dounia', 'Fadia']
+        Dima: ['Barea', 'Hafid', 'Amina', 'Daya', 'Brahim', 'Giovanni', 'Chirine']
+        Ichem: ['Baïa', 'Gamal', 'Brahim', 'Chirine', 'Amina', 'Julian', 'Emir']
+        Fadia: ['Kacem', 'Abdeljalil', 'Dounia', 'Emir', 'Daya', 'Mailys', 'Cémil']
+        Amelle: ['Kaan', 'Fadi', 'Giovanni', 'Cémil', 'Chirine', 'Emir', 'Daya']
+        Daya: ['Faël', 'Djibril', 'Julian', 'Dima', 'Fadia', 'Chirine', 'Amelle']
+        Chirine: ['Arda', 'Hamoud', 'Mailys', 'Ichem', 'Amelle', 'Daya', 'Dima']
+{14: [], 12: ['Adam', 'Amel', 'Armand', 'Luca'], 10: ['Cloé', 'Flore', 'Ismaël', 'Melvin', 'Fahim', 'Hadj', 'Kadija', 'Ibrahima', 'Asma', 'Hacène'], 8: ['Haby', 'Assane', 'Azzedine', 'Ali', 'Angélina', 'Cassandre', 'Fatoumata', 'Ibrahim', 'Lolita', 'Maximilien', 'Jamal', 'Kadir', 'Barea', 'Baïa', 'Kacem', 'Kaan', 'Faël', 'Arda'], 6: ['Keshia', 'Alban', 'Anaëlle', 'Capucine', 'Émilien', 'Héléna', 'Laureen', 'Maria', 'Erol', 'Kaela', 'Hafid', 'Gamal', 'Abdeljalil', 'Fadi', 'Djibril', 'Hamoud', 'Hassina', 'Emir'], 4: ['Ahmed', 'Amina', 'Brahim', 'Dounia', 'Giovanni', 'Julian', 'Mailys', 'Cémil', 'Dima', 'Daya'], 2: ['Ichem', 'Fadia'], 0: ['Amelle', 'Chirine']}
+ t Adam
+ w Armand
+ w Luca
++  Adam            Luca
+ t Amel
+ w Armand
++  Amel            Armand
+ t Cloé
+ w Hadj
++  Cloé            Hadj
+ t Flore
+ w Hadj
+ w Kadija
++  Flore           Kadija
+ t Ismaël
+ w Hadj
+ w Kadija
+ w Ibrahima
++  Ismaël          Ibrahima
+ t Melvin
+ w Hadj
+ w Kadija
+ w Ibrahima
+ w Asma
++  Melvin          Asma
+ t Fahim
+ w Hadj
+ w Kadija
+ w Ibrahima
+ w Asma
+ w Hacène
++  Fahim           Hacène
+ t Haby
+ w Maximilien
++  Haby            Maximilien
+ t Assane
+ w Maximilien
+ w Jamal
++  Assane          Jamal
+ t Azzedine
+ w Maximilien
+ w Jamal
+ w Kadir
++  Azzedine        Kadir
+ t Ali
+ w Maximilien
+ w Jamal
+ w Kadir
+ w Barea
++  Ali             Barea
+ t Angélina
+ w Maximilien
+ w Jamal
+ w Kadir
+ w Barea
+ w Baïa
++  Angélina        Baïa
+ t Cassandre
+ w Maximilien
+ w Jamal
+ w Kadir
+ w Barea
+ w Baïa
+ w Kacem
++  Cassandre       Kacem
+ t Fatoumata
+ w Maximilien
+ w Jamal
+ w Kadir
+ w Barea
+ w Baïa
+ w Kacem
+ w Kaan
++  Fatoumata       Kaan
+ t Ibrahim
+ w Maximilien
+ w Jamal
+ w Kadir
+ w Barea
+ w Baïa
+ w Kacem
+ w Kaan
+ w Faël
++  Ibrahim         Faël
+ t Lolita
+ w Maximilien
+ w Jamal
+ w Kadir
+ w Barea
+ w Baïa
+ w Kacem
+ w Kaan
+ w Faël
+ w Arda
++  Lolita          Arda
+ t Keshia
+ w Kaela
++  Keshia          Kaela
+ t Alban
+ w Kaela
+ w Hafid
++  Alban           Hafid
+ t Anaëlle
+ w Kaela
+ w Hafid
+ w Gamal
++  Anaëlle         Gamal
+ t Capucine
+ w Kaela
+ w Hafid
+ w Gamal
+ w Abdeljalil
++  Capucine        Abdeljalil
+ t Émilien
+ w Kaela
+ w Hafid
+ w Gamal
+ w Abdeljalil
+ w Fadi
++  Émilien         Fadi
+ t Héléna
+ w Kaela
+ w Hafid
+ w Gamal
+ w Abdeljalil
+ w Fadi
+ w Djibril
++  Héléna          Djibril
+ t Laureen
+ w Kaela
+ w Hafid
+ w Gamal
+ w Abdeljalil
+ w Fadi
+ w Djibril
+ w Hamoud
++  Laureen         Hamoud
+ t Maria
+ w Kaela
+ w Hafid
+ w Gamal
+ w Abdeljalil
+ w Fadi
+ w Djibril
+ w Hamoud
+ w Hassina
++  Maria           Hassina
+ t Erol
+ w Kaela
+ w Hafid
+ w Gamal
+ w Abdeljalil
+ w Fadi
+ w Djibril
+ w Hamoud
+ w Hassina
+ w Emir
+ w Keshia
+ w Alban
+ w Anaëlle
+ w Capucine
+ w Émilien
+ w Héléna
+ w Laureen
+ w Maria
+ w Erol
+!= Erol       is   Erol
+ w Ahmed
++  Erol            Ahmed
+ t Ahmed
+!r Ahmed
+ t Amina
+ w Julian
++  Amina           Julian
+ t Brahim
+ w Julian
+ w Mailys
++  Brahim          Mailys
+ t Dounia
+ w Julian
+ w Mailys
+ w Cémil
+ w Dima
++  Dounia          Dima
+ t Giovanni
+ w Julian
+ w Mailys
+ w Cémil
++  Giovanni        Cémil
+ t Ichem
+ w Fadia
++  Ichem           Fadia
+ t Amelle
+ w Chirine
+ w Amelle
+!= Amelle     is   Amelle
++  Ichem           Amelle
++  Fadia           Chirine
+--08---31------------------------------------------------------------------
+id:324 r:7 p:Adam/Luca : Adam
+id:325 r:7 p:Amel/Armand : Amel
+id:326 r:7 p:Cloé/Hadj : Cloé
+id:327 r:7 p:Flore/Kadija : Flore
+id:328 r:7 p:Ismaël/Ibrahima : Ismaël
+id:329 r:7 p:Melvin/Asma : Melvin
+id:330 r:7 p:Fahim/Hacène : Fahim
+id:331 r:7 p:Haby/Maximilien : Haby
+id:332 r:7 p:Assane/Jamal : Assane
+id:333 r:7 p:Azzedine/Kadir : Azzedine
+id:334 r:7 p:Ali/Barea : Ali
+id:335 r:7 p:Angélina/Baïa : Angélina
+id:336 r:7 p:Cassandre/Kacem : Cassandre
+id:337 r:7 p:Fatoumata/Kaan : Fatoumata
+id:338 r:7 p:Ibrahim/Faël : Ibrahim
+id:339 r:7 p:Lolita/Arda : Lolita
+id:340 r:7 p:Keshia/Kaela : Keshia
+id:341 r:7 p:Alban/Hafid : Alban
+id:342 r:7 p:Anaëlle/Gamal : Anaëlle
+id:343 r:7 p:Capucine/Abdeljalil : Capucine
+id:344 r:7 p:Émilien/Fadi : Émilien
+id:345 r:7 p:Héléna/Djibril : Héléna
+id:346 r:7 p:Laureen/Hamoud : Laureen
+id:347 r:7 p:Maria/Hassina : Maria
+id:348 r:7 p:Erol/Ahmed : Erol
+id:349 r:7 p:Amina/Julian : Amina
+id:350 r:7 p:Brahim/Mailys : Brahim
+id:351 r:7 p:Dounia/Dima : Dounia
+id:352 r:7 p:Giovanni/Cémil : Giovanni
+id:353 r:7 p:Ichem/Amelle : Ichem
+id:354 r:7 p:Fadia/Chirine : Fadia
+
+
+Incorrect number of match !
+didnt matsch Emir
+['Jamal', 'Erol', 'Hassina', 'Fadia', 'Ahmed', 'Amelle', 'Ichem']
+didnt matsch Daya
+['Faël', 'Djibril', 'Julian', 'Dima', 'Fadia', 'Chirine', 'Amelle']
