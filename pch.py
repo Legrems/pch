@@ -358,7 +358,7 @@ class PCH():
                             # printf('+  {:<10}      {:<10}'.format(op2, p2))
                             for i in [op1, op2, p1, p2]:
                                 removed.append(i)
-                        else: # C'est la mega merde
+                        else: # C'est la mega merde, on casse des matchs
                             have_to_break_matsch = True
                             mega_merde_depth = 0
                             while have_to_break_matsch and len(pairings) >= 1 and len(removed) >= 2:
@@ -444,6 +444,7 @@ class PCH():
                         try_to_match(p1, check_order_2, ap)
                         # print(len(pairings))
         
+        # Si pour une raison de magie noire le nombre de match n'est pas ok
         if len(pairings) != int((len(self.players) + 1) / 2):
             need_to_match = []
             for p in self.players:
